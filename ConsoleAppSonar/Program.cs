@@ -10,7 +10,10 @@ namespace ConsoleAppSonar
     {
         static void Main(string[] args)
         {
-            
+            MyConfig mc = new MyConfig();
+            mc.Initialize();
+
+
         }
     }
 }
