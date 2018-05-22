@@ -11,9 +11,15 @@ namespace ConsoleAppSonar
         public void Initialize()
         {
             InitConfit();
+            InitParameter();
         }
 
         private void InitConfit()
+        {
+            int a = 22;
+        }
+
+        private void InitParameter()
         {
             int a = 22;
         }
