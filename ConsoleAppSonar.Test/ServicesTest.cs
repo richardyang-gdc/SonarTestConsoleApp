@@ -18,12 +18,10 @@ namespace ConsoleAppSonar.Test
         [TestMethod]
         public void ShouldSubWhenAIsGreatThanB()
         {
-            //int a = 4;
-            //int b = 3;
-            //Services s = new Services();
-            //Assert.AreEqual(a - b, s.Calculate(a, b));
-            MyConfig mc = new MyConfig();
-            mc.Initialize();
+            int a = 4;
+            int b = 3;
+            Services s = new Services();
+            Assert.AreEqual(a - b, s.Calculate(a, b));            
         }
     }
 }
